@@ -1,0 +1,53 @@
+# NOTES — BrightID Anti-Sybil Fork
+
+## Why I forked this
+
+This fork is based on the **BrightID Anti-Sybil** project — a repository that explores
+methods for identifying and mitigating Sybil attacks in decentralized networks.
+Sybil attacks occur when a single adversarial actor creates many fake identities in
+order to influence or distort a system.
+
+I am studying this code in the context of **trust, integrity, and abuse patterns in
+platform systems**.  
+My goal is to understand the *mechanisms of identity distortion* and how graph-based
+signals can help anticipate or surface coordinated misuse.
+
+## What this codebase implements
+
+BrightID Anti-Sybil provides:
+- Utilities for loading and working with network graphs
+- Graph algorithms that measure structural properties
+- Tools for evaluating clustering and connectivity patterns
+- Example datasets and evaluation code
+
+These components reflect common techniques in **network analysis** and structural
+signal extraction.
+
+## Why this matters for platform integrity
+
+On dating or relationship platforms, Sybil-like behavior shows up as:
+- Multiple accounts created rapidly from similar signals (device, network, timing)
+- Accounts that interact in tightly connected subgraphs
+- Repeated cycles of ban-evasion and account regeneration
+- Accounts engaging in coordinated outreach
+
+While not all platforms are decentralized, the underlying *signal reasoning* is the
+same: structural patterns often reveal abnormal behavior before message content
+does. Being familiar with these patterns helps frame better risk signals.
+
+## What I’m exploring here
+
+- How network structure informs risk without relying on content
+- Structural indicators that correlate with coordinated
+  or synthetic account clusters
+- How to map network integrity signals into practical risk
+  tiers for other systems (e.g., dating, social apps)
+- What evaluation metrics make sense for network-based risk
+
+## Attribution
+
+This fork is derived from the original BrightID Anti-Sybil
+repository. All original authorship and licensing remain intact. No claim of
+original creation is made here.
+
+Original project: https://github.com/BrightID/BrightID-AntiSybil
